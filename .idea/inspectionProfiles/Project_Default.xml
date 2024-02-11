@@ -1,0 +1,101 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="HtmlUnknownTag" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="myValues">
+        <value>
+          <list size="7">
+            <item index="0" class="java.lang.String" itemvalue="nobr" />
+            <item index="1" class="java.lang.String" itemvalue="noembed" />
+            <item index="2" class="java.lang.String" itemvalue="comment" />
+            <item index="3" class="java.lang.String" itemvalue="noscript" />
+            <item index="4" class="java.lang.String" itemvalue="embed" />
+            <item index="5" class="java.lang.String" itemvalue="script" />
+            <item index="6" class="java.lang.String" itemvalue="ul" />
+          </list>
+        </value>
+      </option>
+      <option name="myCustomValuesEnabled" value="true" />
+    </inspection_tool>
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="72">
+            <item index="0" class="java.lang.String" itemvalue="pytest" />
+            <item index="1" class="java.lang.String" itemvalue="Faker" />
+            <item index="2" class="java.lang.String" itemvalue="Django" />
+            <item index="3" class="java.lang.String" itemvalue="pytest-django" />
+            <item index="4" class="java.lang.String" itemvalue="pytest-pythonpath" />
+            <item index="5" class="java.lang.String" itemvalue="mixer" />
+            <item index="6" class="java.lang.String" itemvalue="sorl-thumbnail" />
+            <item index="7" class="java.lang.String" itemvalue="requests" />
+            <item index="8" class="java.lang.String" itemvalue="Pillow" />
+            <item index="9" class="java.lang.String" itemvalue="httpx" />
+            <item index="10" class="java.lang.String" itemvalue="tzlocal" />
+            <item index="11" class="java.lang.String" itemvalue="greenlet" />
+            <item index="12" class="java.lang.String" itemvalue="Babel" />
+            <item index="13" class="java.lang.String" itemvalue="pycairo" />
+            <item index="14" class="java.lang.String" itemvalue="constantly" />
+            <item index="15" class="java.lang.String" itemvalue="trio" />
+            <item index="16" class="java.lang.String" itemvalue="filelock" />
+            <item index="17" class="java.lang.String" itemvalue="uvicorn" />
+            <item index="18" class="java.lang.String" itemvalue="jsonschema" />
+            <item index="19" class="java.lang.String" itemvalue="email-validator" />
+            <item index="20" class="java.lang.String" itemvalue="pydantic" />
+            <item index="21" class="java.lang.String" itemvalue="Werkzeug" />
+            <item index="22" class="java.lang.String" itemvalue="cryptography" />
+            <item index="23" class="java.lang.String" itemvalue="reportlab" />
+            <item index="24" class="java.lang.String" itemvalue="pypdf" />
+            <item index="25" class="java.lang.String" itemvalue="flake8-isort" />
+            <item index="26" class="java.lang.String" itemvalue="openai" />
+            <item index="27" class="java.lang.String" itemvalue="pydantic_core" />
+            <item index="28" class="java.lang.String" itemvalue="platformdirs" />
+            <item index="29" class="java.lang.String" itemvalue="pytest-env" />
+            <item index="30" class="java.lang.String" itemvalue="charset-normalizer" />
+            <item index="31" class="java.lang.String" itemvalue="djoser" />
+            <item index="32" class="java.lang.String" itemvalue="Mako" />
+            <item index="33" class="java.lang.String" itemvalue="psycopg-pool" />
+            <item index="34" class="java.lang.String" itemvalue="alembic" />
+            <item index="35" class="java.lang.String" itemvalue="SQLAlchemy" />
+            <item index="36" class="java.lang.String" itemvalue="wcwidth" />
+            <item index="37" class="java.lang.String" itemvalue="pycodestyle" />
+            <item index="38" class="java.lang.String" itemvalue="pyrsistent" />
+            <item index="39" class="java.lang.String" itemvalue="rpds-py" />
+            <item index="40" class="java.lang.String" itemvalue="structlog" />
+            <item index="41" class="java.lang.String" itemvalue="selenium" />
+            <item index="42" class="java.lang.String" itemvalue="pyOpenSSL" />
+            <item index="43" class="java.lang.String" itemvalue="tldextract" />
+            <item index="44" class="java.lang.String" itemvalue="urllib3" />
+            <item index="45" class="java.lang.String" itemvalue="pyee" />
+            <item index="46" class="java.lang.String" itemvalue="outcome" />
+            <item index="47" class="java.lang.String" itemvalue="websockets" />
+            <item index="48" class="java.lang.String" itemvalue="blinker" />
+            <item index="49" class="java.lang.String" itemvalue="annotated-types" />
+            <item index="50" class="java.lang.String" itemvalue="python-docx" />
+            <item index="51" class="java.lang.String" itemvalue="wheel" />
+            <item index="52" class="java.lang.String" itemvalue="black" />
+            <item index="53" class="java.lang.String" itemvalue="ruamel.yaml" />
+            <item index="54" class="java.lang.String" itemvalue="pytest-asyncio" />
+            <item index="55" class="java.lang.String" itemvalue="social-auth-core" />
+            <item index="56" class="java.lang.String" itemvalue="aiogoogle" />
+            <item index="57" class="java.lang.String" itemvalue="makefun" />
+            <item index="58" class="java.lang.String" itemvalue="WTForms" />
+            <item index="59" class="java.lang.String" itemvalue="fastapi" />
+            <item index="60" class="java.lang.String" itemvalue="social-auth-app-django" />
+            <item index="61" class="java.lang.String" itemvalue="typing_extensions" />
+            <item index="62" class="java.lang.String" itemvalue="cachetools" />
+            <item index="63" class="java.lang.String" itemvalue="google-auth" />
+            <item index="64" class="java.lang.String" itemvalue="jsonschema-specifications" />
+            <item index="65" class="java.lang.String" itemvalue="referencing" />
+            <item index="66" class="java.lang.String" itemvalue="pydantic-settings" />
+            <item index="67" class="java.lang.String" itemvalue="cattrs" />
+            <item index="68" class="java.lang.String" itemvalue="requests-cache" />
+            <item index="69" class="java.lang.String" itemvalue="psycopg" />
+            <item index="70" class="java.lang.String" itemvalue="certifi" />
+            <item index="71" class="java.lang.String" itemvalue="psycopg-binary" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
