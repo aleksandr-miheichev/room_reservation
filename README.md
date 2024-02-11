@@ -1,19 +1,19 @@
 # Meeting room booking service
 
-## Содержание
+## Contents
 
-- [Описание проекта](#описание-проекта)
-- [Технологический стек](#технологический-стек)
-- [Как развернуть проект](#как-развернуть-проект)
-- [Шаблон наполнения файла .env](#шаблон-наполнения-файла-env)
-- [Настройка базы данных](#настройка-базы-данных)
-- [Запуск приложения](#запуск-приложения)
-- [Документация API](#документация-api)
-- [Над проектом работал](#над-проектом-работал)
+- [Project Description](#project-description)
+- [Technology Stack](#technology-stack)
+- [How to Deploy Project](#how-to-deploy-a-project)
+- [Fill-in-the-file .env template](#template-for-populating-the-env-file)
+- [Database Setup](#configuring-the-database)
+- [Application Startup](#start-the-application)
+- [API Documentation](#api-documentation)
+- [Worked on project](#the-project-was-worked-on-by)
 
 ---
 
-### Описание проекта:
+### Project Description:
 
 Asynchronous API for an application that will provide an opportunity to book 
 rooms for a certain period of time.
@@ -28,7 +28,7 @@ for which this meeting room is booked is free.
 
 ---
 
-### Технологический стек:
+### Technology Stack:
 
 - [![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)](https://www.python.org/)
 - [![FastAPI](https://img.shields.io/badge/fastapi-109989?style=for-the-badge&logo=FASTAPI&logoColor=white)](https://fastapi.tiangolo.com/)
@@ -39,9 +39,9 @@ for which this meeting room is booked is free.
 
 ---
 
-### Как развернуть проект:
+### How to deploy a project:
 
-Клонировать репозиторий и перейти в него в терминале используя команду
+Clone a repository and navigate to it in the terminal using the command
 
 ```
 cd
@@ -51,7 +51,7 @@ cd
 git clone git@github.com:aleksandr-miheichev/room_reservation.git
 ```
 
-Создать и активировать виртуальное окружение:
+Create and activate a virtual environment:
 
 ```bash
 python -m venv venv
@@ -61,7 +61,7 @@ python -m venv venv
 source venv/Scripts/activate
 ```
 
-Установить зависимости из файла requirements.txt:
+Install dependencies from the requirements.txt file:
 
 ```bash
 pip install -r requirements.txt
@@ -69,7 +69,7 @@ pip install -r requirements.txt
 
 ___
 
-### Шаблон наполнения файла .env:
+### Template for populating the .env file:
 
 ```
 APP_NAME=Meeting room booking service
@@ -81,9 +81,9 @@ FIRST_SUPERUSER_PASSWORD=creared_password
 
 ___
 
-### Настройка базы данных:
+### Configuring the database:
 
-Применить миграции:
+Apply Migrations:
 
 ```bash
 alembic upgrade head 
@@ -91,9 +91,9 @@ alembic upgrade head
 
 ---
 
-### Запуск приложения:
+### Start the application:
 
-Чтобы запустить приложение, необходимо в терминале использовать команду:
+To run the application, you must use the command in the terminal:
 
 ```bash
 uvicorn app.main:app --reload
@@ -101,13 +101,13 @@ uvicorn app.main:app --reload
 
 ---
 
-### Документация API:
+### API Documentation:
 
 - [Swagger](http://127.0.0.1:8000/docs)
 - [Redoc](http://127.0.0.1:8000/redoc)
 
 ---
 
-### Над проектом работал:
+#### The project was worked on by:
 
-- [Михеичев Александр](https://github.com/aleksandr-miheichev)
+- [Miheichev Aleksandr](https://github.com/aleksandr-miheichev)
